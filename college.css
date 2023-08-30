@@ -292,14 +292,16 @@ li:hover ul.kl{
     left: 72%;
     padding: 7px 5px;
 }
-h2{
+.news h2{
     font-style: italic;
     background: rgb(89, 89, 236);
     color: white;
     text-align: center;
     margin-top: 5px;
     margin-left: 20px;
-    padding:2px 50px;
+    padding-top: 13px;
+    padding-left:20px;
+    padding-right:20px;
     white-space: nowrap;
 }
 
@@ -308,6 +310,14 @@ h2{
     justify-content: space-between;
     background: whitesmoke;
     padding: 10px 0;
+  
+
+}
+.mar{
+    margin-left: 5%;
+    margin-right: 11%;
+    margin-top: 20px;
+    overflow: hidden;
 }
 marquee p{
     margin-left: 50%;
@@ -317,6 +327,7 @@ marquee p{
     font-size: 15px;
     font-weight: 560;
     color: rgb(7, 20, 7);
+    
 }
 
 span{
@@ -373,85 +384,122 @@ margin-right: 40px;
     color:white;
     font-size: 17px;
 }
-.mainsec{
-    margin-top: 2%;
-}
 .updates{
     display:flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    margin: 1% 2%;
+    align-items: center;
+    justify-content: space-around;
 }
-.updates .colum1, .colum2, .colum3{
-    border:1px solid grey;
-    margin:0 1%;
-    margin-bottom: 2%;
-    
-    
+.colum1, .colum2, .colum3{
+    border: 1px solid grey;
+    margin: 0px 10px;
 }
+
 .colum1{
-    margin-bottom: 10%;
+    margin-bottom: 80px;
     
+    padding-bottom: 30px;
+
 }
 .colum1 h5{
     white-space: nowrap;
-    margin:0;
-    padding-bottom:12%;
-    margin-right: 10%;
+    padding-top: 30px;
+    padding-left: 5px;
+    color: rgb(25, 25, 245);
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(32, 32, 239);
-    padding:8% 1%;
-    padding-right: 1%;
-    text-align: justify;
-   
     
 }
 .colum1 h3{
-    padding-bottom: 6%;
-    padding-left:2% ;
-    padding-right: 4%;
-    padding-top: 2%;
-    background-color: rgb(101, 101, 186);
-    border-radius: 3px;
-    color: white; 
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(139, 123, 212);
+    border-radius: 5px;
+    padding: 3% 8%;
+    color: white;
 }
-.colum2 p{
-    padding: 2%;
-    padding-bottom:8%;
-    padding-top: 5%;
-    font-size: 17px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: gray;
-    text-align: justify;
+.colum2{
+    
+    padding-bottom: 50px;
+    margin-bottom: 75px;
 }
 .colum2 h3{
-    padding-bottom: 3%;
-    padding-left:2% ;
-    padding-right: 4%;
-    padding-top: 2%;
-    background-color: rgb(101, 101, 186);
-    border-radius: 3px;
-    color: white; 
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(139, 123, 212);
+    border-radius: 5px;
+    padding: 3% 5%;
+    color: white;
 }
-.colum3 {
-    padding-right: 13%;
-    margin-left:2%;
-    
+.colum2 p{
+text-align: justify;
+margin-top: 20px;
+font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(43, 54, 43);
+padding-left: 3px;
+padding-right: 2px;
+}
+.colum3{
+    margin-bottom: 1px;
+    padding-bottom: 40px;
 }
 .colum3 h3{
-    padding-bottom: 8%;
-    padding-left:2% ;
-    padding-right: 50%;
-    padding-top: 4%;
-    background-color: rgb(101, 101, 186);
-    border-radius: 3px;
-    color: white; 
-    font-family: Arial, Helvetica, sans-serif;
-    white-space: nowrap;
+    background-color: rgb(139, 123, 212);
+    border-radius: 5px;
+    padding: 3% 5%;
+    color: white;
 }
-
-
+.paper img{
+   padding-left: 20px;
+}
+.gall{
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 3%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gall .ph{
+    background-color:green;
+    padding: 1% 3%;
+    border-radius: 15px;
+}
+.gall .col{
+    background-color:rgb(158, 102, 102);
+    padding: 1% 3%;
+    border-radius: 15px;
+}
+.gall .you{
+    background-color:red;
+    padding: 1% 2%;
+    border-radius: 15px;
+}
+.gall .aw{
+    background-color:brown;
+    padding: 1% 4%;
+    border-radius: 15px;
+}
+.gall .lm{
+    background-color:rgb(53, 84, 53);
+    padding: 1% 5%;
+    border-radius: 15px;
+}
+.gall .in{
+    background-color:rgb(87, 5, 87);
+    padding: 1% 2%;
+    border-radius: 15px;
+}
+.foot{
+    background-color:rgb(42, 42, 115) ;
+    padding:1.5% 0;
+    display: flex;
+    color: white;
+    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+.foot .des{
+    padding-left:35%;
+}
+.foot .all{
+    padding-left: 5%;
+}
 
 @media (max-width:960px){
     .h-links {
@@ -499,6 +547,65 @@ margin-right: 40px;
         margin: 0;
         width:100%;
     }
+    .gall{
+        display: flex;
+        flex-direction: column;
+        font-size: 11px;
+       
+    }
+    .gall .ph{
+        background-color:green;
+        padding: 2% 3%;
+        border-radius: 15px;
+        margin-right: 60%;
+        margin-bottom: 2%;
+    }
+    .gall .col{
+        background-color:rgb(158, 102, 102);
+        padding: 2% 3%;
+        border-radius: 15px;
+        margin-right: 60%;
+        margin-bottom: 2%;
+        font-size: 15px;
+    }
+    .gall .you{
+        background-color:red;
+        padding: 2% 2%;
+        border-radius: 15px;
+        margin-right: 60%;
+        margin-bottom: 2%;
+        font-size: 14.5px;
+    }
+    .gall .aw{
+        background-color:brown;
+        padding: 2% 4%;
+        border-radius: 15px;
+        margin-right: 60%;
+        margin-bottom: 2%;
+    }
+    .gall .lm{
+        background-color:rgb(53, 84, 53);
+        padding: 2% 5%;
+        border-radius: 15px;
+        margin-right: 60%;
+        margin-bottom: 2%;
+    }
+    .gall .in{
+        background-color:rgb(87, 5, 87);
+        padding: 2% 2%;
+        border-radius: 15px;
+        margin-right: 60%;
+        margin-bottom: 2%;
+    }
+    .foot{
+        display: flex;
+        flex-direction: column;
+    }
+    .foot .all{
+        padding-left: 17%;
+        padding-right: 5%;
+    }
+    
 }
 @media (max-width:1315px){
     .n-links {
@@ -562,9 +669,14 @@ margin-right: 40px;
         left: 10px;
         padding: 7px 5px;
     }
-
-   
-
+}
+@media (max-width:680px){
+    .foot p{
+        font-size:6px ;
+    }
+    .foot .all{
+        padding-left: 24%;
+    }
 }
 
 
